@@ -39,6 +39,7 @@ const Movie = props => {
         <div className="movie-metascore">
           Metascore: <strong>{metascore}</strong>
         </div>
+
         <h3>Actors</h3>
 
         {stars.map(star => (
